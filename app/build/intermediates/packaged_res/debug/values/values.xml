@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color_main">#1a132b</color>
+    <color name="black">#FF000000</color>
+    <color name="title_color_top">#e6daff</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">JustCodeHW2</string>
+    <string name="audi_e_tron_sportback">Audi e-tron Sportback</string>
+    <string name="change_location"><u>Change Location</u></string>
+    <string name="my_vehicle">My vehicle</string>
+    <string name="nearby_chargers">Nearby Chargers</string>
+    <string name="netherlands_amesterdam">Netherlands, Amesterdam</string>
+    <style name="Base.Theme.JustCodeHW2" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="windowActionBar">false</item>
+        
+        <item name="windowNoTitle">true</item>
+        
+    </style>
+</resources>

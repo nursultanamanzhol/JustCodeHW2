@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\drawable_img_charge_point3.png.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\drawable\\img_charge_point3.png"
+    },
+    {
+        "merged": "kz.course.justcodehw2.app-merged_res-35:/layout_activity_main.xml.flat",
+        "source": "kz.course.justcodehw2.app-main-37:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\drawable_img_car.png.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\drawable\\img_car.png"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\drawable_ic_car.xml.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\drawable\\ic_car.xml"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\drawable_custom_background.xml.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\drawable\\custom_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\drawable_img_battery.png.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\drawable\\img_battery.png"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\drawable_img_charge_point2.png.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\drawable\\img_charge_point2.png"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\drawable_custom_background_const.xml.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\drawable\\custom_background_const.xml"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\drawable_img_speed.png.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\drawable\\img_speed.png"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\drawable_img_charge_point.png.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\drawable\\img_charge_point.png"
+    },
+    {
+        "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    }
+]

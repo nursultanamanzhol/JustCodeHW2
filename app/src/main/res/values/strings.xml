@@ -2,4 +2,7 @@
     <string name="app_name">JustCodeHW2</string>
     <string name="audi_e_tron_sportback">Audi e-tron Sportback</string>
     <string name="my_vehicle">My vehicle</string>
+    <string name="nearby_chargers">Nearby Chargers</string>
+    <string name="netherlands_amesterdam">Netherlands, Amesterdam</string>
+    <string name="change_location"><u>Change Location</u></string>
 </resources>
