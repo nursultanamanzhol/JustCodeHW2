@@ -7,85 +7,410 @@
     android:background="@color/background_color_main"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/titleTv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="35dp"
-        android:text="@string/my_vehicle"
-        android:textColor="@color/title_color_top"
-        android:textSize="32dp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/allConst"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="30dp"
-        android:background="@drawable/custom_background"
+        android:background="@drawable/custom_background_const"
+        android:paddingBottom="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleTv">
+        app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/audiTitleTv"
+            android:id="@+id/titleTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="10dp"
-            android:text="@string/audi_e_tron_sportback"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="25dp"
+            android:text="@string/my_vehicle"
             android:textColor="@color/title_color_top"
-            android:textSize="20sp"
-            android:textStyle="normal"
+            android:textSize="32dp"
+            android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:layout_width="237dp"
-            android:layout_height="172dp"
-            android:src="@drawable/img_car"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:id="@+id/icon_battery"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_marginStart="15dp"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="15dp"
-            android:src="@drawable/img_battery"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/custom_background"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/audiTitleTv" />
+            app:layout_constraintTop_toBottomOf="@+id/titleTv">
+
+            <TextView
+                android:id="@+id/audiTitleTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/audi_e_tron_sportback"
+                android:textColor="@color/title_color_top"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="237dp"
+                android:layout_height="172dp"
+                android:src="@drawable/img_car"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/icon_battery"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/img_battery"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/audiTitleTv" />
+
+            <TextView
+                android:id="@+id/num_batteryTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="262"
+                android:textColor="#D9C8FF"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/icon_battery"
+                app:layout_constraintTop_toBottomOf="@+id/audiTitleTv" />
+
+            <TextView
+                android:id="@+id/kilometreTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:text="kilometre left"
+                android:textAllCaps="true"
+                android:textColor="#9285b1"
+                android:textSize="9sp"
+                app:layout_constraintStart_toEndOf="@+id/icon_battery"
+                app:layout_constraintTop_toBottomOf="@+id/num_batteryTv" />
+
+
+            <ImageView
+                android:id="@+id/icon_speed"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/img_speed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/icon_battery" />
+
+            <TextView
+                android:id="@+id/prosentTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:text="35%"
+                android:textColor="#D9C8FF"
+                app:layout_constraintStart_toEndOf="@+id/icon_speed"
+                app:layout_constraintTop_toBottomOf="@+id/kilometreTv" />
+
+            <TextView
+                android:id="@+id/chargedTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:text="charged"
+                android:textAllCaps="true"
+                android:textColor="#9285b1"
+                android:textSize="9sp"
+                app:layout_constraintStart_toEndOf="@+id/icon_speed"
+                app:layout_constraintTop_toBottomOf="@+id/prosentTv" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
-            android:id="@+id/num_batteryTv"
+            android:id="@+id/nearby_chargersTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/nearby_chargers"
+            android:textColor="@color/title_color_top"
+            android:textSize="32dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/constTop" />
+
+        <TextView
+            android:id="@+id/locationTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="@string/netherlands_amesterdam"
+            android:textColor="#9c8dbe"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nearby_chargersTv" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/change_location"
+            android:textColor="#8e63ee"
+            app:layout_constraintStart_toEndOf="@id/locationTv"
+            app:layout_constraintTop_toBottomOf="@id/nearby_chargersTv" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/centerNearbyConst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
-            android:text="262"
-            android:textColor="#D9C8FF"
-            android:textSize="14sp"
-            app:layout_constraintStart_toEndOf="@+id/icon_battery"
-            app:layout_constraintTop_toBottomOf="@+id/audiTitleTv" />
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/custom_background"
+            android:paddingStart="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/locationTv">
 
-        <TextView
-            android:layout_width="wrap_content"
+            <ImageView
+                android:id="@+id/chargePointImg"
+                android:layout_width="102dp"
+                android:layout_height="94dp"
+                android:src="@drawable/img_charge_point"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <TextView
+                android:id="@+id/chargePointStationTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="ChargePoint Station 1"
+                android:textColor="#d5c4fb"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/chargePointImg"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/streetPuloTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="street pulo 25"
+                android:textAllCaps="true"
+                android:textColor="#D9C8FF"
+                android:textSize="10sp"
+                app:layout_constraintStart_toEndOf="@+id/chargePointImg"
+                app:layout_constraintTop_toBottomOf="@+id/chargePointStationTv" />
+
+            <TextView
+                android:id="@+id/locationInTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Amesterdam, Netherlands"
+                android:textColor="#D9C8FF"
+                android:textSize="10sp"
+                app:layout_constraintStart_toEndOf="@+id/chargePointImg"
+                app:layout_constraintTop_toBottomOf="@+id/streetPuloTv" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="8 Ports Available"
+                android:textColor="#A680FA"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/chargePointImg"
+                app:layout_constraintTop_toBottomOf="@+id/locationInTv" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/centerNearbyConst2"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="5dp"
-            android:text="kilometre left"
-            android:textColor="#D9C8FF"
-            android:textSize="14sp"
-            app:layout_constraintStart_toEndOf="@+id/icon_battery"
-            app:layout_constraintTop_toBottomOf="@+id/num_batteryTv" />
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/custom_background"
+            android:paddingStart="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/centerNearbyConst">
+
+            <ImageView
+                android:id="@+id/chargePointImg2"
+                android:layout_width="102dp"
+                android:layout_height="94dp"
+                android:src="@drawable/img_charge_point2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <TextView
+                android:id="@+id/chargePointStationTv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="ChargePoint Station 2"
+                android:textColor="#d5c4fb"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/chargePointImg2"
+                app:layout_constraintTop_toTopOf="parent" />
 
 
+            <TextView
+                android:id="@+id/streetPuloTv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="street srna 74"
+                android:textAllCaps="true"
+                android:textColor="#D9C8FF"
+                android:textSize="10sp"
+                app:layout_constraintStart_toEndOf="@+id/chargePointImg2"
+                app:layout_constraintTop_toBottomOf="@+id/chargePointStationTv2" />
+
+            <TextView
+                android:id="@+id/locationInTv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Amesterdam, Netherlands"
+                android:textColor="#D9C8FF"
+                android:textSize="10sp"
+                app:layout_constraintStart_toEndOf="@+id/chargePointImg2"
+                app:layout_constraintTop_toBottomOf="@+id/streetPuloTv2" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="2 Ports Available"
+                android:textColor="#F5CA31"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/chargePointImg2"
+                app:layout_constraintTop_toBottomOf="@+id/locationInTv2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/custom_background"
+            android:paddingStart="10dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/centerNearbyConst2">
+
+            <ImageView
+                android:id="@+id/chargePointImg3"
+                android:layout_width="102dp"
+                android:layout_height="94dp"
+                android:src="@drawable/img_charge_point3"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+
+                />
+
+            <TextView
+                android:id="@+id/chargePointStationTv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="ChargePoint Station 3"
+                android:textColor="#d5c4fb"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/chargePointImg3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/streetPuloTv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="street adas 123 123"
+                android:textAllCaps="true"
+                android:textColor="#D9C8FF"
+                android:textSize="10sp"
+                app:layout_constraintStart_toEndOf="@+id/chargePointImg3"
+                app:layout_constraintTop_toBottomOf="@+id/chargePointStationTv3" />
+
+            <TextView
+                android:id="@+id/locationInTv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:text="Amesterdam, Netherlands"
+                android:textColor="#D9C8FF"
+                android:textSize="10sp"
+                app:layout_constraintStart_toEndOf="@+id/chargePointImg3"
+                app:layout_constraintTop_toBottomOf="@+id/streetPuloTv3" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:text="5 Ports Available"
+                android:textColor="#A680FA"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/chargePointImg3"
+                app:layout_constraintTop_toBottomOf="@+id/locationInTv3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1a132b"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="5dp"
+        app:menu="@menu/bottom_navigation"
+        app:layout_constraintTop_toBottomOf="@+id/allConst" />
 </androidx.constraintlayout.widget.ConstraintLayout>
