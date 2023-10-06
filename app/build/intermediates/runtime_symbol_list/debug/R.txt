@@ -2933,10 +2933,14 @@ int drawable ic_mtrl_chip_checked_circle 0x7f070094
 int drawable ic_mtrl_chip_close_circle 0x7f070095
 int drawable ic_search_black_24 0x7f070096
 int drawable img_battery 0x7f070097
+int drawable img_battery_icon 0x7f0700e8
 int drawable img_car 0x7f070098
 int drawable img_charge_point 0x7f070099
 int drawable img_charge_point2 0x7f0700e5
 int drawable img_charge_point3 0x7f0700e6
+int drawable img_location_icon 0x7f0700e9
+int drawable img_profile_icon 0x7f0700ea
+int drawable img_settings_icon 0x7f0700eb
 int drawable img_speed 0x7f07009a
 int drawable m3_appbar_background 0x7f07009b
 int drawable m3_avd_hide_password 0x7f07009c
@@ -3108,6 +3112,7 @@ int id beginning 0x7f08005b
 int id bestChoice 0x7f08005c
 int id blocking 0x7f08005d
 int id bottom 0x7f08005e
+int id bottomNavigationView 0x7f080211
 int id bounce 0x7f08005f
 int id bounceBoth 0x7f080060
 int id bounceEnd 0x7f080061
@@ -3732,6 +3737,7 @@ int layout select_dialog_item_material 0x7f0b0066
 int layout select_dialog_multichoice_material 0x7f0b0067
 int layout select_dialog_singlechoice_material 0x7f0b0068
 int layout support_simple_spinner_dropdown_item 0x7f0b0069
+int menu bottom_navigation 0x7f130000
 int mipmap ic_launcher 0x7f0d0000
 int mipmap ic_launcher_round 0x7f0d0001
 int plurals mtrl_badge_content_description 0x7f0e0000

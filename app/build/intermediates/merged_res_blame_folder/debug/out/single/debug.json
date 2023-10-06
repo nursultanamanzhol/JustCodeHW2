@@ -12,8 +12,24 @@
         "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\xml\\data_extraction_rules.xml"
     },
     {
+        "merged": "kz.course.justcodehw2.app-merged_res-35:/drawable_img_profile_icon.png.flat",
+        "source": "kz.course.justcodehw2.app-main-37:/drawable/img_profile_icon.png"
+    },
+    {
+        "merged": "kz.course.justcodehw2.app-merged_res-35:/drawable_img_settings_icon.png.flat",
+        "source": "kz.course.justcodehw2.app-main-37:/drawable/img_settings_icon.png"
+    },
+    {
+        "merged": "kz.course.justcodehw2.app-merged_res-35:/drawable_img_location_icon.png.flat",
+        "source": "kz.course.justcodehw2.app-main-37:/drawable/img_location_icon.png"
+    },
+    {
         "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\drawable_img_car.png.flat",
         "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\drawable\\img_car.png"
+    },
+    {
+        "merged": "kz.course.justcodehw2.app-merged_res-35:/drawable_img_battery_icon.png.flat",
+        "source": "kz.course.justcodehw2.app-main-37:/drawable/img_battery_icon.png"
     },
     {
         "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\layout_activity_main.xml.flat",
@@ -62,6 +78,10 @@
     {
         "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\xml_backup_rules.xml.flat",
         "source": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-main-37:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "kz.course.justcodehw2.app-merged_res-35:/menu_bottom_navigation.xml.flat",
+        "source": "kz.course.justcodehw2.app-main-37:/menu/bottom_navigation.xml"
     },
     {
         "merged": "C:\\Users\\nursu\\.gradle\\daemon\\8.0\\kz.course.justcodehw2.app-merged_res-35:\\drawable_img_charge_point2.png.flat",

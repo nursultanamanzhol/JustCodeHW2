@@ -2934,10 +2934,14 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable img_battery
+drawable img_battery_icon
 drawable img_car
 drawable img_charge_point
 drawable img_charge_point2
 drawable img_charge_point3
+drawable img_location_icon
+drawable img_profile_icon
+drawable img_settings_icon
 drawable img_speed
 drawable m3_appbar_background
 drawable m3_avd_hide_password
@@ -3109,6 +3113,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottomNavigationView
 id bounce
 id bounceBoth
 id bounceEnd
@@ -3733,6 +3738,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu bottom_navigation
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description

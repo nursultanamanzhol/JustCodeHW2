@@ -11,6 +11,7 @@ import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -25,6 +26,9 @@ public final class ActivityMainBinding implements ViewBinding {
 
   @NonNull
   public final TextView audiTitleTv;
+
+  @NonNull
+  public final BottomNavigationView bottomNavigationView;
 
   @NonNull
   public final ConstraintLayout centerNearbyConst;
@@ -118,6 +122,7 @@ public final class ActivityMainBinding implements ViewBinding {
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
       @NonNull ConstraintLayout allConst, @NonNull TextView audiTitleTv,
+      @NonNull BottomNavigationView bottomNavigationView,
       @NonNull ConstraintLayout centerNearbyConst, @NonNull ConstraintLayout centerNearbyConst2,
       @NonNull ImageView chargePointImg, @NonNull ImageView chargePointImg2,
       @NonNull ImageView chargePointImg3, @NonNull TextView chargePointStationTv,
@@ -134,6 +139,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.rootView = rootView;
     this.allConst = allConst;
     this.audiTitleTv = audiTitleTv;
+    this.bottomNavigationView = bottomNavigationView;
     this.centerNearbyConst = centerNearbyConst;
     this.centerNearbyConst2 = centerNearbyConst2;
     this.chargePointImg = chargePointImg;
@@ -202,6 +208,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.audiTitleTv;
       TextView audiTitleTv = ViewBindings.findChildViewById(rootView, id);
       if (audiTitleTv == null) {
+        break missingId;
+      }
+
+      id = R.id.bottomNavigationView;
+      BottomNavigationView bottomNavigationView = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNavigationView == null) {
         break missingId;
       }
 
@@ -386,12 +398,12 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, allConst, audiTitleTv,
-          centerNearbyConst, centerNearbyConst2, chargePointImg, chargePointImg2, chargePointImg3,
-          chargePointStationTv, chargePointStationTv2, chargePointStationTv3, chargedTv, constTop,
-          constraintLayout, iconBattery, iconSpeed, imageView, kilometreTv, locationInTv,
-          locationInTv2, locationInTv3, locationTv, nearbyChargersTv, numBatteryTv, prosentTv,
-          streetPuloTv, streetPuloTv2, streetPuloTv3, textView, textView2, textView3, textView4,
-          titleTv);
+          bottomNavigationView, centerNearbyConst, centerNearbyConst2, chargePointImg,
+          chargePointImg2, chargePointImg3, chargePointStationTv, chargePointStationTv2,
+          chargePointStationTv3, chargedTv, constTop, constraintLayout, iconBattery, iconSpeed,
+          imageView, kilometreTv, locationInTv, locationInTv2, locationInTv3, locationTv,
+          nearbyChargersTv, numBatteryTv, prosentTv, streetPuloTv, streetPuloTv2, streetPuloTv3,
+          textView, textView2, textView3, textView4, titleTv);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

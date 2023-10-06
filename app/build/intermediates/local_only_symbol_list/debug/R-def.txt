@@ -10,13 +10,18 @@ drawable ic_car
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable img_battery
+drawable img_battery_icon
 drawable img_car
 drawable img_charge_point
 drawable img_charge_point2
 drawable img_charge_point3
+drawable img_location_icon
+drawable img_profile_icon
+drawable img_settings_icon
 drawable img_speed
 id allConst
 id audiTitleTv
+id bottomNavigationView
 id centerNearbyConst
 id centerNearbyConst2
 id chargePointImg
@@ -48,6 +53,7 @@ id textView3
 id textView4
 id titleTv
 layout activity_main
+menu bottom_navigation
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
